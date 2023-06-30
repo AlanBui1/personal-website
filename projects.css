@@ -1,0 +1,56 @@
+#project-section{
+    width: 60%;
+    margin: 20vh auto;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: repeat(auto-fit, 1fr); 
+    gap: 2rem; 
+    /* border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+    border-width: 4px; */
+}
+
+
+.project-box{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+
+    background-color: rgba(31, 31, 31, 0.6);
+    backdrop-filter: blur(10px);
+    align-items: center;
+
+    /* border-style: solid;*/
+    border-radius: 15px;
+    /*border-color: aqua;
+    border-width: 2px; */
+}
+
+.project-title{
+    color: white;
+    font-family: "RobotoSlab", sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.project-text{
+    color: white;
+    font-family: "RobotoSlab", sans-serif;
+    margin: 1rem;
+}
+
+.project-img{
+    aspect-ratio: 2/1;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#echochess{
+    width: 60%;
+    aspect-ratio: 1/1;
+}

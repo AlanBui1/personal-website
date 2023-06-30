@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('assets/fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Varela-Regular';
+    src: url('assets/fonts/Varela-Regular.ttf') format('truetype');
+}
+
+body{
+    overflow: overlay;
+}
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/images/sharpen_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -2147483647;
+}
+
+a {
+    color: inherit;
+    text-decoration: none; /* Optionally, remove underline */
+}
+  
+#section-title{
+    color: white;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 36px;
+
+    background-color: rgba(31, 31, 31, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+#pikachugun{
+    position: absolute;
+    width: 10%;
+    left: 45%;
+}

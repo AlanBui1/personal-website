@@ -1,0 +1,42 @@
+#experience-section{
+    width: 50%;
+    margin: 20vh auto;
+}
+
+.experience-flexbox{
+    display: flex;
+    gap: 2rem; 
+    flex-direction: column;
+    
+    border-radius: 5px;
+}
+
+.experience-item{
+    display: flex;
+    background-color: rgba(31, 31, 31, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.experience-info{
+    border-radius: 5px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    padding: 20px;
+
+}
+
+.experience-title{
+    color: white;
+    font-family: "Varela-Regular", sans-serif;
+}
+
+.experience-subheading{
+    color: white;
+    font-family: "Varela-Regular", sans-serif;
+}

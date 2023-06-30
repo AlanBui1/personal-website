@@ -1,0 +1,38 @@
+#main-box{
+
+    background-color: rgba(31, 31, 31, 0.6);
+    backdrop-filter: blur(10px);
+
+    border-radius: 15px;
+
+    width: 60%;
+    margin: 20vh auto;
+    margin-top: 30vh;
+    margin-bottom: 0vh;
+}
+
+.main-text{
+    color: white;
+    padding: 20px;
+    font-family: "Varela-Regular", sans-serif;
+}
+
+#links-box{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+
+    background-color: rgba(31, 31, 31, 0.807);
+    backdrop-filter: blur(10px);
+
+    width: 60%;
+    margin: 0vh auto;
+    border-radius: 15px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.link-img{
+    height: 80px;
+}

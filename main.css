@@ -19,13 +19,13 @@
 
 #links-box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
 
     background-color: rgba(31, 31, 31, 0.807);
     backdrop-filter: blur(10px);
 
-    width: 60%;
+    width: 25%;
     margin: 0vh auto;
     border-radius: 15px;
 

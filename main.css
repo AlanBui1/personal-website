@@ -29,10 +29,11 @@
     margin: 0vh auto;
     border-radius: 15px;
 
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .link-img{
-    height: 80px;
+    color: white;
+    font-size: 60px;
 }

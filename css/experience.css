@@ -13,8 +13,6 @@
 
 .experience-item{
     display: flex;
-    background-color: rgba(31, 31, 31, 0.6);
-    backdrop-filter: blur(10px);
     border-radius: 10px;
     align-items: center;
 }

@@ -21,8 +21,6 @@
     flex-direction: column;
     height: 400px;
 
-    background-color: rgba(31, 31, 31, 0.6);
-    backdrop-filter: blur(10px);
     align-items: center;
 
     /* border-style: solid;*/
@@ -41,7 +39,7 @@
 
 .project-text{
     color: white;
-    font-family: "RobotoSlab", sans-serif;
+    font-family: "RobotoSlab", serif;
     margin: 1rem;
 }
 

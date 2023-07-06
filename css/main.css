@@ -1,19 +1,31 @@
 #main-box{
 
-    background-color: rgba(31, 31, 31, 0.6);
-    backdrop-filter: blur(10px);
-
     border-radius: 15px;
-
+    
     width: 60%;
     margin: 20vh auto;
     margin-top: 200px;
     margin-bottom: 0vh;
 }
 
+#main-title{
+    color: white;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 36px;
+    width: 70%;
+    margin: 5vh auto;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+    
+}
+
+
 .main-text{
     color: white;
     padding: 20px;
+    border-radius: 15px;
     font-family: "Varela-Regular", sans-serif;
 }
 
@@ -21,12 +33,10 @@
     display: flex;
     justify-content: space-between;
     height: 100px;
-
-    background-color: rgba(31, 31, 31, 0.807);
-    backdrop-filter: blur(10px);
-
+    
     width: 30%;
     margin: 0vh auto;
+    margin-bottom: 0;
     border-radius: 15px;
 
     justify-content: space-around;

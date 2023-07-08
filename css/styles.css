@@ -8,6 +8,11 @@
     src: url('../assets/fonts/Varela-Regular.ttf') format('truetype');
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     
     overflow: auto;
@@ -50,32 +55,9 @@ a {
     text-align: center;
     vertical-align: middle;
     padding: 15px;
+    margin-bottom: 2vh;
 }
 
-#pikachugun{
-    position: absolute;
-    width: 10%;
-    left: 45%;
-}
-
-#pikachugun:hover{
-    animation: logoAnimation 2s infinite;
-}
-
-@keyframes logoAnimation {
-    0% {
-        transform: rotate(0deg);
-        opacity: 1;
-    }
-    50% {
-        transform: rotate(180deg);
-        opacity: 0.1;
-    }
-    100% {
-        transform: rotate(360deg);
-        opacity: 1;
-    }
-}
 
 
 #left_star {

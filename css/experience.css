@@ -1,17 +1,20 @@
 #experience-section{
-    width: 50%;
+    width: 60%;
     margin: 20vh auto;
+
 }
 
 .experience-flexbox{
-    display: flex;
-    gap: 2rem; 
-    flex-direction: column;
-    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    grid-template-rows: repeat(auto-fit, 1fr); 
+    /* border-radius: 5px; */
+    gap: 2rem;
 }
 
 .experience-item{
     display: flex;
+    flex-direction: column;
     border-radius: 10px;
     align-items: center;
 }
@@ -24,16 +27,24 @@
     margin-top: 10px;
     margin-left: 10px;
     width: 80px;
-    padding: 20px;
-
+    align-self: center;
 }
 
 .experience-title{
     color: white;
     font-family: "Varela-Regular", sans-serif;
+    text-align: center;
+    padding-top: 2ch;
+    align-self: center;
 }
 
 .experience-subheading{
     color: white;
     font-family: "Varela-Regular", sans-serif;
+    text-align: center;
+}
+
+.experience-textbox{
+    padding-top: 2ch;
+    padding-bottom: 2ch;
 }

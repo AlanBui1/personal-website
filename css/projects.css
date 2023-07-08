@@ -25,6 +25,8 @@
     font-family: "RobotoSlab", sans-serif;
     text-align: center;
     font-size: 24px;
+    
+    padding-bottom: 2ch;
 }
 
 .project-text{

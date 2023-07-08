@@ -35,8 +35,7 @@
     height: 100px;
     
     width: 30%;
-    margin: 0vh auto;
-    margin-bottom: 0;
+    margin: 2vh auto;
     border-radius: 15px;
 
     justify-content: space-around;
@@ -51,4 +50,29 @@
 .link-img:hover{
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#pikachugun{
+    position: absolute;
+    width: 10%;
+    left: 45%;
+}
+
+#pikachugun:hover{
+    animation: logoAnimation 2s infinite;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: rotate(180deg);
+        opacity: 0.1;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+    }
 }

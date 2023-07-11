@@ -1,47 +1,103 @@
-#project-section{
-    width: 60%;
-    margin: 10vh auto;
+@media only screen and (min-width: 600px){
+    #project-section{
+        width: 60%;
+        margin: 10vh auto;
+    }
+
+    .project-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+        grid-template-rows: repeat(auto-fit, 1fr); 
+        gap: 2rem; 
+    }
+
+
+    .project-box{
+        display: flex;
+        flex-direction: column;
+        /* height: 400px; */
+        align-items: center;
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .project-title{
+        color: white;
+        font-family: "RobotoSlab", sans-serif;
+        text-align: center;
+        font-size: 24px;
+        
+        padding-bottom: 2ch;
+    }
+
+    .project-text{
+        color: white;
+        font-family: "RobotoSlab", serif;
+        margin: 1rem;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .project-img{
+        aspect-ratio: 2/1;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    #echochess{
+        width: 50%;
+        aspect-ratio: 1/1;
+    }
 }
 
-.project-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-    grid-template-rows: repeat(auto-fit, 1fr); 
-    gap: 2rem; 
-}
+@media only screen and (max-width: 600px){
+    #project-section{
+        width: 80%;
+        margin: 10vh auto;
+    }
+
+    .project-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+        grid-template-rows: repeat(auto-fit, 1fr); 
+        gap: 2rem; 
+    }
 
 
-.project-box{
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    align-items: center;
-    border-radius: 15px;
-    padding: 15px;
-}
+    .project-box{
+        display: flex;
+        flex-direction: column;
+        /* height: 400px; */
+        align-items: center;
+        border-radius: 15px;
+        padding: 15px;
+    }
 
-.project-title{
-    color: white;
-    font-family: "RobotoSlab", sans-serif;
-    text-align: center;
-    font-size: 24px;
-    
-    padding-bottom: 2ch;
-}
+    .project-title{
+        color: white;
+        font-family: "RobotoSlab", sans-serif;
+        text-align: center;
+        font-size: 24px;
+        
+        padding-bottom: 2ch;
+    }
 
-.project-text{
-    color: white;
-    font-family: "RobotoSlab", serif;
-    margin: 1rem;
-}
+    .project-text{
+        color: white;
+        font-family: "RobotoSlab", serif;
+        margin: 1rem;
+        padding: 5px;
+        text-align: center;
+    }
 
-.project-img{
-    aspect-ratio: 2/1;
-    width: 80%;
-    border-radius: 10px;
-}
+    .project-img{
+        aspect-ratio: 2/1;
+        width: 80%;
+        border-radius: 10px;
+    }
 
-#echochess{
-    width: 50%;
-    aspect-ratio: 1/1;
+    #echochess{
+        width: 50%;
+        aspect-ratio: 1/1;
+    }
 }

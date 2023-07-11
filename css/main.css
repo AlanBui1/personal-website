@@ -1,78 +1,157 @@
-#main-box{
+@media only screen and (min-width: 600px){
+    #main-box{
 
-    border-radius: 15px;
-    
-    width: 60%;
-    margin: 20vh auto;
-    margin-top: 200px;
-    margin-bottom: 0vh;
-}
-
-#main-title{
-    color: white;
-    font-family: "RobotoSlab", sans-serif;
-    font-size: 36px;
-    width: 70%;
-    margin: 5vh auto;
-    border-radius: 15px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 15px;
-    
-}
-
-
-.main-text{
-    color: white;
-    padding: 20px;
-    border-radius: 15px;
-    font-family: "Varela-Regular", sans-serif;
-}
-
-#links-box{
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    
-    width: 30%;
-    margin: 2vh auto;
-    border-radius: 15px;
-
-    justify-content: space-around;
-    align-items: center;
-}
-
-.link-img{
-    color: white;
-    font-size: 60px;
-}
-
-.link-img:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-#pikachugun{
-    position: absolute;
-    width: 10%;
-    left: 45%;
-}
-
-#pikachugun:hover{
-    animation: logoAnimation 2s infinite;
-}
-
-@keyframes logoAnimation {
-    0% {
-        transform: rotate(0deg);
-        opacity: 1;
+        border-radius: 15px;
+        
+        width: 60%;
+        margin: 20vh auto;
+        margin-top: 200px;
+        margin-bottom: 0vh;
     }
-    50% {
-        transform: rotate(180deg);
-        opacity: 0.1;
+
+    #main-title{
+        color: white;
+        font-family: "RobotoSlab", sans-serif;
+        font-size: 36px;
+        width: 70%;
+        margin: 5vh auto;
+        border-radius: 15px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;     
     }
-    100% {
-        transform: rotate(360deg);
-        opacity: 1;
+
+    .main-text{
+        color: white;
+        padding: 20px;
+        border-radius: 15px;
+        font-family: "Varela-Regular", sans-serif;
+    }
+
+    #links-box{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        
+        width: 30%;
+        margin: 2vh auto;
+        border-radius: 15px;
+
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .link-img{
+        color: white;
+        font-size: 60px;
+    }
+
+    .link-img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #pikachugun{
+        position: absolute;
+        width: 10%;
+        left: 45%;
+    }
+
+    #pikachugun:hover{
+        animation: logoAnimation 2s infinite;
+    }
+
+    @keyframes logoAnimation {
+        0% {
+            transform: rotate(0deg);
+            opacity: 1;
+        }
+        50% {
+            transform: rotate(180deg);
+            opacity: 0.1;
+        }
+        100% {
+            transform: rotate(360deg);
+            opacity: 1;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #main-box{
+        border-radius: 15px;
+        
+        width: 80%;
+        margin: 20vh auto;
+        margin-top: 250px;
+        margin-bottom: 50px;
+    }
+
+    #main-title{
+        color: white;
+        font-family: "RobotoSlab", sans-serif;
+        font-size: 36px;
+        width: 70%;
+        margin: 5vh auto;
+        border-radius: 15px;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;     
+    }
+
+    .main-text{
+        color: white;
+        padding: 20px;
+        border-radius: 15px;
+        font-family: "Varela-Regular", sans-serif;
+    }
+
+    #links-box{
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        
+        width: 80%;
+        margin: 2vh auto;
+        border-radius: 15px;
+
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .link-img{
+        color: white;
+        font-size: 60px;
+    }
+
+    .link-img:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    #pikachugun{
+        position: absolute;
+        width: 40%;
+        left: 30%;
+        margin-bottom: 50px;
+    }
+
+    #pikachugun:hover{
+        animation: logoAnimation 2s infinite;
+    }
+
+    @keyframes logoAnimation {
+        0% {
+            transform: rotate(0deg);
+            opacity: 1;
+        }
+        50% {
+            transform: rotate(180deg);
+            opacity: 0.1;
+        }
+        100% {
+            transform: rotate(360deg);
+            opacity: 1;
+        }
     }
 }

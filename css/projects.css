@@ -49,6 +49,22 @@
         width: 50%;
         aspect-ratio: 1/1;
     }
+
+    .more-button{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .button-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white !important;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
 }
 
 @media only screen and (max-width: 600px){
@@ -101,4 +117,21 @@
         width: 50%;
         aspect-ratio: 1/1;
     }
+
+    .more-button{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .button-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white !important;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+    }
 }
+
+

@@ -12,15 +12,6 @@
     width: 0px; /* width of the scrollbar */
   }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    
-    overflow: auto;
-}
 #background{
     position: fixed;
     top: 0;
@@ -34,9 +25,17 @@ body{
     z-index: -2147483647;
 }
 
-a {
-    color: inherit;
-    text-decoration: none; /* Optionally, remove underline */
+.section-title{
+    color: white;
+    font-family: "RobotoSlab", sans-serif;
+    font-size: 36px;
+    
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px;
+    margin-bottom: 2vh;
+    margin-top: 80px;
 }
 
 .glass{
@@ -49,19 +48,6 @@ a {
     transform: scale(1.01);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 }
-
-#section-title{
-    color: white;
-    font-family: "RobotoSlab", sans-serif;
-    font-size: 36px;
-    
-    border-radius: 15px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 15px;
-    margin-bottom: 2vh;
-}
-
 
 
 #left_star {
@@ -144,18 +130,44 @@ a {
     }
   }
 
-#footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 2rem;
-    height: 150px;
+@media only screen and (min-width: 600px){
+
+    #quick-links{
+        width: 80%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 40px;
+        gap: 1rem;
+    }
+
+    .quick-link{
+        width: 40%;
+        color: white;
+        border-radius: 10px;
+        padding: 5px;
+        line-height: 3rem;
+        text-decoration: none;
+        font-size: x-large;
+        font-family: "RobotoSlab", sans-serif;
+    }
+
+    #back-arrow{
+        position: fixed;
+        top: 80px;
+        left: 50px;
+        border-radius: 10px;
+        line-height: 70px;
+        font-size: 70px;
+        padding: 10px;
+    }
 }
 
-#copyright{
-    text-align: center;
-    color: white;
-}
+@media only screen and (max-width: 600px){
 
+}
 
 

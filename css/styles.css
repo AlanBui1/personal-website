@@ -28,21 +28,21 @@ body{
     width: 100%;
     height: 100vh;
     
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
   45deg,
   hsl(236deg 59% 34%) 0%,
-  hsl(261deg 62% 33%) 20%,
-  hsl(277deg 76% 31%) 40%,
-  hsl(292deg 88% 29%) 60%,
-  hsl(305deg 85% 32%) 80%,
-  hsl(313deg 85% 38%) 100%
-);
+  hsl(248, 69%, 33%) 20%,    
+  hsl(261deg 62% 33%) 40%,
+  hsl(277deg 76% 31%) 60%,
+  hsl(292deg 88% 29%) 80%,
+  hsl(305, 78%, 28%) 100%
+); */
     
     background-size: cover;
-    /* background-image: url(../assets/images/night.jpg);
+    background-image: url(../assets/images/night.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
     z-index: -2147483647;
 }
 

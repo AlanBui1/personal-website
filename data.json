@@ -5,7 +5,8 @@
         "numPhotos": 18,
         "michelinStars": 1,
         "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/mont-bar",
-        "review": "Different from a bustling pintxos bar, Mont Bar brings professionalism to counter-seating with rigorous service and a spotless interior. The tasting menu opens with a series of “snacks” (eaten in one or two bites) served in pairs followed by small plates and finishing with delightful desserts. At the time of writing, the menu, which changes frequently, included notable snack pairs like a cockle soufflé paired with a beetroot flower with caviar and chicken skin and squid paired with millefeuilles topped with wagyu and foie. Additionally, the smoked tuna belly with pine nut emulsion was a star of the show. Chef Fran Agudo delivers a truly fulfilling gastronomic experience, from the quality of seasonal products to the meticulous presentation of each course."
+        "review": "Different from a bustling pintxos bar, Mont Bar brings professionalism to counter-seating with rigorous service and a spotless interior. The tasting menu opens with a series of “snacks” (eaten in one or two bites) served in pairs followed by small plates and finishing with delightful desserts. At the time of writing, the menu, which changes frequently, included notable snack pairs like a cockle soufflé paired with a beetroot flower with caviar and chicken skin and squid paired with millefeuilles topped with wagyu and foie. Additionally, the smoked tuna belly with pine nut emulsion was a star of the show. Chef Fran Agudo delivers a truly fulfilling gastronomic experience, from the quality of seasonal products to the meticulous presentation of each course.",
+        "photosLink": ""
     },
 
     "shizuku": {
@@ -14,7 +15,8 @@
         "numPhotos": 17,
         "michelinStars": 0,
         "michelinLink": "",
-        "review": "From the exterior, the unassuming storefront seems to blend in; however, one peek inside the restaurant reveals a clean, minimalistic, and sleek room with a long wooden sushi counter. Chef Kazuki Wan and his team offer two omakase menus, Yuki with 18 seasonal seafood selections and Shizuku with 22 seasonal seafood selections. In addition to the freshly sourced fish used for the nigiri courses such as kinmedai, buri, and akagai, non-nigiri courses are masterfully prepared, notably shirako chawanmushi and ankimoshu. Chef Kazuki's welcoming and cheery attitude creates a comfortable dining environment while maintaining professionalism. Shizuku only has seating for 8, so be sure to make reservations ahead of time."
+        "review": "From the exterior, the unassuming storefront seems to blend in; however, one peek inside the restaurant reveals a clean, minimalistic, and sleek room with a long wooden sushi counter. Chef Kazuki Wan and his team offer two omakase menus, Yuki with 18 seasonal seafood selections and Shizuku with 22 seasonal seafood selections. In addition to the freshly sourced fish used for the nigiri courses such as kinmedai, buri, and akagai, non-nigiri courses are masterfully prepared, notably shirako chawanmushi and ankimoshu. Chef Kazuki's welcoming and cheery attitude creates a comfortable dining environment while maintaining professionalism. Shizuku only has seating for 8, so be sure to make reservations ahead of time.",
+        "photosLink": ""
     },
 
     "shiros": {
@@ -23,6 +25,17 @@
         "numPhotos": 19,
         "michelinStars": 0,
         "michelinLink": "",
-        "review": "A bit away from the business of Seattle's Pike Place Market, Shiro's Sushi exclusively offers omakase dining to sushi bar and dining table guests. The ambience is lively as the chefs prepare nigiri for their customers. The selection includes fresh seafood from both local and international waters, including bluefin tuna and sea urchins from Japan. If you're in luck, the chef may serve seared kama-toro topped with premium uni. "
+        "review": "A bit away from the business of Seattle's Pike Place Market, Shiro's Sushi exclusively offers omakase dining to sushi bar and dining table guests. The ambience is lively as the chefs prepare nigiri for their customers. The selection includes fresh seafood from both local and international waters, including bluefin tuna and sea urchins from Japan. If you're in luck, the chef may serve seared kama-toro topped with premium uni.",
+        "photosLink": ""
+    },
+
+    "alapar": {
+        "name": "Alapar",
+        "website": "https://alaparbcn.com/en/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/alapar",
+        "review": "Alapar does not serve your typical \"Edo-mae style\" omakase. Instead, the chefs cook up a Japanese-Mediterranean fusion, including a multitude of nigiris which are in the omakase and the à la carte menu. The menu features a tuna tartar mushipan with wasabi emulsion which is intrinsically, a reason to dine again.",
+        "photosLink": "https://drive.google.com/drive/folders/1Y2ISH85VmgQF4O-YeNOvszSDuVQwh5g2"
     }
 }

@@ -21,13 +21,13 @@ if (searchParams.has('id')){
             //LINK BAR
             const linkBar = document.getElementById('link-bar');
 
-            if (michelinStars > 0){
+            if (michelinLink !== ""){
                 const michelinGuide = document.createElement('a');
                 michelinGuide.href = michelinLink;
                 michelinGuide.className = 'michelinstar';
                 michelinGuide.innerHTML = `<img src="../assets/images/food/michelinguide.svg">`
-
                 linkBar.appendChild(michelinGuide);
+
             }
 
             for (let i=0; i<michelinStars; i++){

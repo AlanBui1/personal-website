@@ -40,19 +40,19 @@
 }
 
 .gold{
-    box-shadow: -1px -1px 6px rgba(255, 215, 0, 1);
+    box-shadow: 0px 0px 6px rgba(255, 215, 0, 1);
 }
 
 .silver{
-    box-shadow: -1px -1px 6px rgba(192,192,192, 1);
+    box-shadow: 0px 0px 6px rgba(192,192,192, 1);
 }
 
 .bronze{
-    box-shadow: -1px -1px 6px rgba(205, 127, 50, 1);
+    box-shadow: 0px 0px 6px rgba(205, 127, 50, 1);
 }
 
 .red{
-    box-shadow: -1px -1px 6px rgba(171, 35, 48, 1);
+    box-shadow: 0px 0px 6px rgba(171, 35, 48, 1);
 }
 
 @media only screen and (min-width: 600px){

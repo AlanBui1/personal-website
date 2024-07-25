@@ -37,5 +37,25 @@
         "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/alapar",
         "review": "Alapar does not serve your typical \"Edo-mae style\" omakase. Instead, the chefs cook up a Japanese-Mediterranean fusion, including a multitude of nigiris which are in the omakase and the à la carte menu. The menu features a tuna tartar mushipan with wasabi emulsion which is intrinsically, a reason to dine again.",
         "photosLink": "https://drive.google.com/drive/folders/1Y2ISH85VmgQF4O-YeNOvszSDuVQwh5g2"
+    },
+ 
+    "yugen": {
+        "name": "Sushi Yūgen",
+        "website": "https://sushiyugen.ca/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": "",
+        "review": "Tucked away in Toronto's financial district, your Sushi Yūgen experience begins by walking through a miniature Japanese rock garden. The decor is aesthetic and adds a layer of professionalism to the ambience. At lunch, they offer an $80 lunch omakase menu that includes shiroebi, kanpachi, akami, and chutoro. This is a great place for somebody's first omakase.",
+        "photosLink": "https://drive.google.com/drive/folders/1o-J16s5OQJ6pALGw5CfV5AtiHpUeDqJQ"
+    },
+
+    "enigma": {
+        "name": "Enigma",
+        "website": "https://enigmaconcept.es/",
+        "numPhotos": 0,
+        "michelinStars": 1,
+        "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/enigma",
+        "review": "Through the single-door entrance of Enigma (the only Albert Adrià restaurant in Spain), the unique decor immediately wows you with \"grey clouds\" shimmering on the ceiling and lights on the floor illuminating the path. The service is impeccable, with multiple servers assigned to a table and synchronized plating times. The chefs master molecular gastronomy to deliver a meal, or should I say performance, of a lifetime. Each elaboration consists of a meticulously plated for creative presentation as well as occasional mind tricks like the \"white asparagus\" that is actually a daikon radish, the \"tiger cod\" that is just cod with seaweed, and the \"Asian pear\" that is actually frozen yuzu with beetroot. One of my favourite dishes was the \"Life Cycle of the Palamós Shrimp\" which showcased the evolution of a shrimp's taste as it ages.",
+        "photosLink": "https://drive.google.com/drive/folders/18_zn_oqVe45jIRzgv0OxlpVzZbYbLX-w"
     }
 }

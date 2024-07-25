@@ -1,6 +1,10 @@
 {
     "montbar": {
         "numPhotos": 18,
-        "name": "Mont Bar"
+        "name": "Mont Bar",
+        "website": "https://www.montbar.com/en/",
+        "michelinStars": 1,
+        "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/mont-bar",
+        "review": "Different from a bustling pintxos bar, Mont Bar brings professionalism to counter-seating with rigorous service and a spotless interior. The tasting menu opens with a series of “snacks” (eaten in one or two bites) served in pairs followed by small plates and finishing with delightful desserts. At the time of writing, the menu, which changes frequently, included notable snack pairs like a cockle soufflé paired with a beetroot flower with caviar and chicken skin and squid paired with millefeuilles topped with wagyu and foie. Additionally, the smoked tuna belly with pine nut emulsion was a star of the show. Chef Fran Agudo delivers a truly fulfilling gastronomic experience, from the quality of seasonal products to the meticulous presentation of each course."
     }
 }

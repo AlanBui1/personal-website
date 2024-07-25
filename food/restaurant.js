@@ -48,7 +48,7 @@ if (searchParams.has('id')){
             //PHOTOS LINK
             const photoLink = document.getElementsByClassName('link-photo')[0];
             photoLink.style.backgroundImage = `url("../assets/images/food/`+id+`.svg")`;
-            photoLink.href = data[id]["photoLink"] === "" ? "./photos.html?id="+id : data[id]["photoLink"];
+            photoLink.href = ((data[id]["photoLink"] === "") ? ("./photos.html?id="+id) : data[id]["photoLink"]);
 
             //REVIEW
             setElementById('review', review);

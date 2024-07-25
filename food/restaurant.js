@@ -51,7 +51,7 @@ if (searchParams.has('id')){
             photoLink.href = "./photos.html?id="+id;
 
             //REVIEW
-            // setElementById('review', review);
+            setElementById('review', review);
 
         });
 

@@ -14,6 +14,15 @@
         "numPhotos": 17,
         "michelinStars": 0,
         "michelinLink": "",
-        "review": "From the exterior, the unassuming storefront seems to blend in; however, one peek inside the restaurant reveals a clean, minimalistic, and sleek room with a long wooden sushi counter. Chef Kazuki Wan and his team offer two omakase menus, Yuki with 18 seasonal seafood selections and Shizuku with 22 seasonal seafood selections. In addition to the freshly sourced fish used for the nigiri courses such as kinmedai, buri, and akagai, non-nigiri courses are masterfully prepared, notably shirako chawanmushi and ankimoshu. Chef Kazuki’s welcoming and cheery attitude creates a comfortable dining environment while maintaining professionalism. Shizuku only has seating for 8, so be sure to make reservations ahead of time."
+        "review": "From the exterior, the unassuming storefront seems to blend in; however, one peek inside the restaurant reveals a clean, minimalistic, and sleek room with a long wooden sushi counter. Chef Kazuki Wan and his team offer two omakase menus, Yuki with 18 seasonal seafood selections and Shizuku with 22 seasonal seafood selections. In addition to the freshly sourced fish used for the nigiri courses such as kinmedai, buri, and akagai, non-nigiri courses are masterfully prepared, notably shirako chawanmushi and ankimoshu. Chef Kazuki's welcoming and cheery attitude creates a comfortable dining environment while maintaining professionalism. Shizuku only has seating for 8, so be sure to make reservations ahead of time."
+    },
+
+    "shiros": {
+        "name": "Shiro's Sushi",
+        "website": "https://shiros.com/",
+        "numPhotos": 19,
+        "michelinStars": 0,
+        "michelinLink": "",
+        "review": "A bit away from the business of Seattle's Pike Place Market, Shiro's Sushi exclusively offers omakase dining to sushi bar and dining table guests. The ambience is lively as the chefs prepare nigiri for their customers. The selection includes fresh seafood from both local and international waters, including bluefin tuna and sea urchins from Japan. If you're in luck, the chef may serve seared kama-toro topped with premium uni. "
     }
 }

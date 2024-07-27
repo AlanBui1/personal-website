@@ -1,61 +1,112 @@
 {
+    "shiros": {
+        "name": "Shiro's Sushi",
+        "website": "https://shiros.com/",
+        "numPhotos": 19,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/JZFr37d6qq9SnqZaA"
+    },
+    "shizuku": {
+        "name": "Shizuku",
+        "website": "https://shizuku.ca/",
+        "numPhotos": 17,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/5zUrLNBW9bR2e8cz7"
+    },
     "montbar": {
         "name": "Mont Bar",
         "website": "https://www.montbar.com/en/",
         "numPhotos": 18,
         "michelinStars": 1,
         "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/mont-bar",
-        "review": "Different from a bustling pintxos bar, Mont Bar brings professionalism to counter-seating with rigorous service and a spotless interior. The tasting menu opens with a series of “snacks” (eaten in one or two bites) served in pairs followed by small plates and finishing with delightful desserts. At the time of writing, the menu, which changes frequently, included notable snack pairs like a cockle soufflé paired with a beetroot flower with caviar and chicken skin and squid paired with millefeuilles topped with wagyu and foie. Additionally, the smoked tuna belly with pine nut emulsion was a star of the show. Chef Fran Agudo delivers a truly fulfilling gastronomic experience, from the quality of seasonal products to the meticulous presentation of each course.",
-        "photosLink": ""
+        "review": "",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/u6pMFzZfJ8fUu59d6"
     },
-
-    "shizuku": {
-        "name": "Shizuku",
-        "website": "https://shizuku.ca/",
-        "numPhotos": 17,
-        "michelinStars": 0,
-        "michelinLink": "",
-        "review": "From the exterior, the unassuming storefront seems to blend in; however, one peek inside the restaurant reveals a clean, minimalistic, and sleek room with a long wooden sushi counter. Chef Kazuki Wan and his team offer two omakase menus, Yuki with 18 seasonal seafood selections and Shizuku with 22 seasonal seafood selections. In addition to the freshly sourced fish used for the nigiri courses such as kinmedai, buri, and akagai, non-nigiri courses are masterfully prepared, notably shirako chawanmushi and ankimoshu. Chef Kazuki's welcoming and cheery attitude creates a comfortable dining environment while maintaining professionalism. Shizuku only has seating for 8, so be sure to make reservations ahead of time.",
-        "photosLink": ""
-    },
-
-    "shiros": {
-        "name": "Shiro's Sushi",
-        "website": "https://shiros.com/",
-        "numPhotos": 19,
-        "michelinStars": 0,
-        "michelinLink": "",
-        "review": "A bit away from the business of Seattle's Pike Place Market, Shiro's Sushi exclusively offers omakase dining to sushi bar and dining table guests. The ambience is lively as the chefs prepare nigiri for their customers. The selection includes fresh seafood from both local and international waters, including bluefin tuna and sea urchins from Japan. If you're in luck, the chef may serve seared kama-toro topped with premium uni.",
-        "photosLink": ""
-    },
-
     "alapar": {
         "name": "Alapar",
         "website": "https://alaparbcn.com/en/",
         "numPhotos": 0,
         "michelinStars": 0,
         "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/alapar",
-        "review": "Alapar does not serve your typical \"Edo-mae style\" omakase. Instead, the chefs cook up a Japanese-Mediterranean fusion, including a multitude of nigiris which are in the omakase and the à la carte menu. The menu features a tuna tartar mushipan with wasabi emulsion which is intrinsically, a reason to dine again.",
-        "photosLink": "https://drive.google.com/drive/folders/1Y2ISH85VmgQF4O-YeNOvszSDuVQwh5g2"
+        "review": "",
+        "photosLink": "https://drive.google.com/drive/folders/1Y2ISH85VmgQF4O-YeNOvszSDuVQwh5g2",
+        "location": "https://maps.app.goo.gl/U9Tf7BXYe19ofHMg8"
     },
- 
     "yugen": {
-        "name": "Sushi Yūgen",
+        "name": "Sushi Y\u016bgen ",
         "website": "https://sushiyugen.ca/",
         "numPhotos": 0,
         "michelinStars": 0,
-        "michelinLink": "",
-        "review": "Tucked away in Toronto's financial district, your Sushi Yūgen experience begins by walking through a miniature Japanese rock garden. The decor is aesthetic and adds a layer of professionalism to the ambience. At lunch, they offer an $80 lunch omakase menu that includes shiroebi, kanpachi, akami, and chutoro. This is a great place for somebody's first omakase.",
-        "photosLink": "https://drive.google.com/drive/folders/1o-J16s5OQJ6pALGw5CfV5AtiHpUeDqJQ"
+        "michelinLink": ".",
+        "review": "",
+        "photosLink": "https://drive.google.com/drive/folders/1o-J16s5OQJ6pALGw5CfV5AtiHpUeDqJQ",
+        "location": "https://maps.google.com?q=Sushi%20Yugen,%20150%20York%20St,%20Toronto,%20ON%20M5H%203S5,%20Canada&ftid=0x882b35f0208b81a3:0xa104574d1c197493&entry=gps&lucs=,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&g_st=com.google.maps.preview.copy"
     },
-
     "enigma": {
         "name": "Enigma",
         "website": "https://enigmaconcept.es/",
         "numPhotos": 0,
         "michelinStars": 1,
         "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/enigma",
-        "review": "Through the single-door entrance of Enigma (the only Albert Adrià restaurant in Spain), the unique decor immediately wows you with \"grey clouds\" shimmering on the ceiling and lights on the floor illuminating the path. The service is impeccable, with multiple servers assigned to a table and synchronized plating times. The chefs master molecular gastronomy to deliver a meal, or should I say performance, of a lifetime. Each elaboration consists of a meticulously plated for creative presentation as well as occasional mind tricks like the \"white asparagus\" that is actually a daikon radish, the \"tiger cod\" that is just cod with seaweed, and the \"Asian pear\" that is actually frozen yuzu with beetroot. One of my favourite dishes was the \"Life Cycle of the Palamós Shrimp\" which showcased the evolution of a shrimp's taste as it ages.",
-        "photosLink": "https://drive.google.com/drive/folders/18_zn_oqVe45jIRzgv0OxlpVzZbYbLX-w"
+        "review": "",
+        "photosLink": "https://drive.google.com/drive/folders/18_zn_oqVe45jIRzgv0OxlpVzZbYbLX-w",
+        "location": "https://maps.app.goo.gl/LUNo5ujGWZKmQXjr9"
+    },
+    "seeds": {
+        "name": "Seeds",
+        "website": "https://www.restauranteseeds.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": "https://guide.michelin.com/ca/en/comunidad-de-madrid/madrid/restaurant/seeds-1200244",
+        "review": "",
+        "photosLink": "https://drive.google.com/drive/folders/13gWmyPUS77erWaIC7WuvruNPFA8yHjGk",
+        "location": "https://maps.app.goo.gl/fUrJQvNitumbtA6V9"
+    },
+    "suculent": {
+        "name": "Suculent",
+        "website": "https://suculent.com/en/suculent-en/",
+        "numPhotos": 10,
+        "michelinStars": 0,
+        "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/suculent",
+        "review": "",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/G638PJTo6jTvDyJJ7"
+    },
+    "canete": {
+        "name": "Bar Ca\u00f1ete",
+        "website": "https://barcanete.com/en/",
+        "numPhotos": 6,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/kF1ciRvPg5YAVUne8"
+    },
+    "riaskru": {
+        "name": "R\u00edasKru",
+        "website": "https://riaskru.com/en/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": "https://guide.michelin.com/ca/en/catalunya/barcelona/restaurant/riaskru",
+        "review": "",
+        "photosLink": "https://drive.google.com/drive/folders/1SRpf-Px_sqcP_o7LbJi8JCIMarJhksPv",
+        "location": "https://maps.app.goo.gl/pvXxXkmrehbyRBHu7"
+    },
+    "toufuya": {
+        "name": "Toufuya Ukai",
+        "website": "https://www.ukai.co.jp/english/shiba/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "",
+        "photosLink": "https://drive.google.com/drive/folders/1-7FOuJLNB094Ixf0QOgxH_VtJD-Lyv8U",
+        "location": "https://maps.app.goo.gl/xCFEKmR9GY4arzXLA"
     }
 }

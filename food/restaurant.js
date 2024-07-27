@@ -21,7 +21,7 @@ if (searchParams.has('id')){
             //LINK BAR
             const linkBar = document.getElementById('link-bar');
 
-            if (michelinLink !== ""){
+            if (michelinLink !== "."){
                 const michelinGuide = document.createElement('a');
                 michelinGuide.href = michelinLink;
                 michelinGuide.className = 'michelinstar';
@@ -45,11 +45,17 @@ if (searchParams.has('id')){
             websiteLink.className = 'btn';
             linkBar.appendChild(websiteLink);
 
+            const mapsLink = document.createElement('a');
+            mapsLink.href = data[id]['location'];
+            mapsLink.innerHTML = "Maps";
+            mapsLink.className = 'btn';
+            linkBar.appendChild(mapsLink);
+
             //PHOTOS LINK
             const photoLink = document.getElementsByClassName('link-photo')[0];
             photoLink.style.backgroundImage = `url("../assets/images/food/`+id+`.svg")`;
             // if (data[id]["photoLink"] === )
-            photoLink.href = ((data[id]["photosLink"] === "") ? ("./photos.html?id="+id) : data[id]["photosLink"]);
+            photoLink.href = ((data[id]["photosLink"] === ".") ? ("./photos.html?id="+id) : data[id]["photosLink"]);
             //REVIEW
             setElementById('review', review);
 

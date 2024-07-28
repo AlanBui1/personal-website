@@ -27,7 +27,7 @@ a{
     text-decoration: none;
 }
 
-.main-title, .restaurant-subtitle, .restaurant-title, .filter-box>.btn, .card-main-text>h1{
+.main-title, .restaurant-subtitle, .restaurant-title, .filter-box>.btn, .card-main-text>h1, .link-photo > h2{
     font-family: var(--heading-font), serif;
 }
 
@@ -68,6 +68,12 @@ a{
     text-decoration: none;
 }
 
+.clicked{
+    background-color: white !important;
+    color: black !important;
+
+}
+
 @media only screen and (min-width: 600px){
     .gold{
         box-shadow: 0px 0px 6px rgba(255, 215, 0, 1) !important;
@@ -82,6 +88,22 @@ a{
     }
     
     .red{
+        box-shadow: 0px 0px 6px rgba(171, 35, 48, 1) !important;
+    }
+
+    #gold{
+        box-shadow: 0px 0px 6px rgba(255, 215, 0, 1) !important;
+    }
+    
+    #silver{
+        box-shadow: 0px 0px 6px rgba(192,192,192, 1) !important;
+    }
+    
+    #bronze{
+        box-shadow: 0px 0px 6px rgba(205, 127, 50, 1) !important;
+    }
+    
+    #red{
         box-shadow: 0px 0px 6px rgba(171, 35, 48, 1) !important;
     }
 
@@ -206,6 +228,22 @@ a{
     
     .red{
         box-shadow: 0px 0px 10px rgba(171, 35, 48, 1) !important;
+    }
+
+    #gold{
+        box-shadow: 0px 0px 6px rgba(255, 215, 0, 1) !important;
+    }
+    
+    #silver{
+        box-shadow: 0px 0px 6px rgba(192,192,192, 1) !important;
+    }
+    
+    #bronze{
+        box-shadow: 0px 0px 6px rgba(205, 127, 50, 1) !important;
+    }
+    
+    #red{
+        box-shadow: 0px 0px 6px rgba(171, 35, 48, 1) !important;
     }
 
     #main-container{

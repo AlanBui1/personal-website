@@ -53,7 +53,7 @@ if (searchParams.has('id')){
 
             //PHOTOS LINK
             const photoLink = document.getElementsByClassName('link-photo')[0];
-            photoLink.style.backgroundImage = `url("../assets/images/food/`+id+`.svg")`;
+            photoLink.style.backgroundImage = `url("../assets/images/food/`+id+`.jpg")`;
             // if (data[id]["photoLink"] === )
             photoLink.href = ((data[id]["photosLink"] === ".") ? ("./photos.html?id="+id) : data[id]["photosLink"]);
             //REVIEW

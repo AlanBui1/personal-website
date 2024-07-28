@@ -1,7 +1,21 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../assets/fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Varela-Regular';
+    src: url('../assets/fonts/Varela-Regular.ttf') format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
     scroll-margin-bottom: 20px;
+
+    --heading-font: 'RobotoSlab';
+    --sub-font: 'Varela-Regular';
+
 }
 
 /* For WebKit-based browsers (Chrome, Safari, etc.) */
@@ -13,7 +27,13 @@ a{
     text-decoration: none;
 }
 
+.main-title, .restaurant-subtitle, .restaurant-title, .filter-box>.btn, .card-main-text>h1{
+    font-family: var(--heading-font), serif;
+}
 
+ .card-subtext, .restaurant-paragraph, .link-bar{
+    font-family: var(--sub-font), sans-serif;
+}
 
 #bg{
     position: fixed;
@@ -138,12 +158,12 @@ a{
         text-decoration: none;
         color: white;
         background-color: black;
-        width: 20%; 
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 8px;
         text-align: center;
+        font-size: 16px;
     }
 
     .btn:hover{
@@ -158,8 +178,9 @@ a{
         margin-right: auto;
         margin-top: 2%;
         width: 60%;
-        height: 50px;
-        /* border-color: white; */
+        height: auto;
+        gap: 2em;
+        flex-wrap: wrap;
     }
 
     .filter-box > .btn{
@@ -190,6 +211,7 @@ a{
         align-items: center;
         border-radius: 10px;
         margin: auto;
+        margin-bottom: 2%;
         padding: 1em;
     }
 

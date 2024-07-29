@@ -135,8 +135,38 @@
         "numPhotos": 1,
         "michelinStars": 0,
         "michelinLink": "https://guide.michelin.com/ca/en/tokyo-region/tokyo/restaurant/sobahouse-konjikihototogisu",
-        "review": "Make sure to go to the restaurant in the morning to pick up a ticket to dine later in the day at this formerly 1 Michelin-starred ramen restaurant. This isn’t your typical bowl of ramen, as the broth uses clams, truffles, and many other ingredients to bring out the umami while keeping the broth light but flavourful. The noodles, too, are made fresh and are worth the trip to try.",
+        "review": "Make sure to go to the restaurant in the morning to pick up a ticket to dine later in the day at this formerly 1 Michelin-starred ramen restaurant. This isn't your typical bowl of ramen, as the broth uses clams, truffles, and many other ingredients to bring out the umami while keeping the broth light but flavourful. The noodles, too, are made fresh and are worth the trip to try.",
         "photosLink": ".",
         "location": "https://maps.app.goo.gl/W1TQSyC5rLdHvDpcA"
+    },
+    "lavina": {
+        "name": "La Vina",
+        "website": "https://lavinarestaurante.com/en/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "Join the crowd at La Vina to try an authentic Basque cheesecake. The cheesecake is light but creamy and a little burnt which adds a caramel flavour. If there are not any seats at the bar and you do not want to wait, you can do take-out and eat by the water very close by.",
+        "photosLink": "https://drive.google.com/drive/folders/10DoCXX5sYmlN7EBAQ8u_6LTy4wYppjC9",
+        "location": "https://maps.app.goo.gl/JmtNMyPg6Tz1CxZcA"
+    },
+    "joncake": {
+        "name": "JonCake",
+        "website": "https://joncake.last.shop/en",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "You will know you are at the right place when you see the line going down the street for JonCake's slices of cheesecake which are sold by weight. The different cheesecake flavours come from different types of cheese and believe it or not, the cheesecakes taste like real cheese. This place is perfect for someone who likes cheese, cake, and cheesecake.",
+        "photosLink": "https://drive.google.com/drive/folders/1-zv5BSo6U1nhO79uCQAgsC-xPe4Nssqw",
+        "location": "https://maps.app.goo.gl/nrkNFn22V3kL7uhMA"
+    },
+    "hofmann": {
+        "name": "Patisserie Hofmann",
+        "website": "https://hofmannpasteleria.com/",
+        "numPhotos": 4,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "Known on Instagram for its mascarpone-filled croissant, Patisserie Hofmann should really be known for their French-style pastries. They make pastries in a similar style to Cédric Grolet, beautifully crafted and made of a white chocolate shell with a mousse inside. In particular, the pistachio pastry is exceptional, as it has a white chocolate shell filled with pistachio mousse, pistachio crunch, orange marmalade, passion fruit, and yuzu.",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/32gc3SXxAWhpkjobA"
     }
 }

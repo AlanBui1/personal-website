@@ -19,225 +19,275 @@
         <div id="bg"></div>
 
         <h1 class="main-title">Alan's Food Guide</h1>
-
-        <div class="filter-box">
-            <button id="gold" onclick="filter('gold')" class="btn gold">Gold</button>
-            <button id="silver" onclick="filter('silver')" class="btn silver">Silver</button>
-            <button id="bronze" onclick="filter('bronze')" class="btn bronze">Bronze</button>
-            <button id="michelin" onclick="filter('michelin')" class="btn red">Michelin</button>
-            <button id="SPA" onclick="filter('SPA')" class="btn">Spain</button>
-            <button id="CAN" onclick="filter('CAN')" class="btn">Canada</button>
-            <button id="USA" onclick="filter('USA')" class="btn">United States</button>
-            <button id="JPN" onclick="filter('JPN')" class="btn">Japan</button>
+        
+        <div id="filter-main" style="display: none">
+            <div class="filter-box">
+                <button id="gold" onclick="filter('gold')" class="btn gold">Gold</button>
+                <button id="silver" onclick="filter('silver')" class="btn silver">Silver</button>
+                <button id="bronze" onclick="filter('bronze')" class="btn bronze">Bronze</button>
+                <button id="michelin" onclick="filter('michelin')" class="btn red">Michelin</button>
+            </div>
+            <div class="filter-box">
+                <button id="CAN" onclick="filter('CAN')" class="btn">Canada</button>
+                <button id="USA" onclick="filter('USA')" class="btn">United States</button>
+                <button id="SPA" onclick="filter('SPA')" class="btn">Spain</button>
+                <button id="JPN" onclick="filter('JPN')" class="btn">Japan</button>
+            </div>
+            <div class="filter-box">
+                <button id="japanese" onclick="filter('japanese')" class="btn">Japanese</button>
+                <button id="mediterranean" onclick="filter('mediterranean')" class="btn">Mediterranean</button>
+                <button id="dessert" onclick="filter('dessert')" class="btn">Dessert</button>
+                <button id="fusion" onclick="filter('fusion')" class="btn">Fusion</button>
+            </div>
         </div>
+        <div class="filter-text" >
+            <button id="filter-button" onclick="toggleFilter()" class="btn filter-text">Filter: None</button>
+        </div>
+        
 
         <div class="line"></div>
         <div id="main-container">
                 
-        <div class="card gold japanese USA">
-            <a href= "./food/review.html?id=shiros">
-                <img class="card-img gold" src="./assets/images/food/shiros.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Shiro's Sushi</h1>
-                <h1>Seattle, USA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$$ | Omakase
-            </h2>
-        </div>
         
-    
-        <div class="card gold japanese CAN">
-            <a href= "./food/review.html?id=shizuku">
-                <img class="card-img gold" src="./assets/images/food/shizuku.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Shizuku</h1>
-                <h1>Scarborough, CAN</h1>
+            <div class="card gold SPA michelin">
+                <a href= "./food/review.html?id=enigma">
+                    <img class="card-img gold" src="./assets/images/food/enigma.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Enigma</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$$$ | Creative
+                </h2>
             </div>
-            <h2 class="card-subtext">
-               $$$$ | Omakase
-            </h2>
-        </div>
-        
-    
-        <div class="card gold mediterranean SPA michelin">
-            <a href= "./food/review.html?id=montbar">
-                <img class="card-img gold" src="./assets/images/food/montbar.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Mont Bar</h1>
-                <h1>Barcelona, SPA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$$ | Mediterranean
-            </h2>
-        </div>
-        
-    
-        <div class="card silver fusion SPA michelin">
-            <a href= "./food/review.html?id=alapar">
-                <img class="card-img silver" src="./assets/images/food/alapar.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Alapar</h1>
-                <h1>Barcelona, SPA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$ | Fusion
-            </h2>
-        </div>
-        
-    
-        <div class="card silver japanese CAN">
-            <a href= "./food/review.html?id=yugen">
-                <img class="card-img silver" src="./assets/images/food/yugen.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Sushi Yūgen </h1>
-                <h1>Toronto, CAN</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$ | Omakase
-            </h2>
-        </div>
-        
-    
-        <div class="card gold SPA michelin">
-            <a href= "./food/review.html?id=enigma">
-                <img class="card-img gold" src="./assets/images/food/enigma.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Enigma</h1>
-                <h1>Barcelona, SPA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$$$ | Creative
-            </h2>
-        </div>
-        
-    
-        <div class="card silver mediterranean SPA michelin">
-            <a href= "./food/review.html?id=seeds">
-                <img class="card-img silver" src="./assets/images/food/seeds.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Seeds</h1>
-                <h1>Madrid, SPA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$ | Mediterranean
-            </h2>
-        </div>
-        
-    
-        <div class="card silver mediterranean SPA michelin">
-            <a href= "./food/review.html?id=suculent">
-                <img class="card-img silver" src="./assets/images/food/suculent.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Suculent</h1>
-                <h1>Barcelona, SPA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$ | Mediterranean
-            </h2>
-        </div>
-        
-    
-        <div class="card silver spanish SPA ">
-            <a href= "./food/review.html?id=canete">
-                <img class="card-img silver" src="./assets/images/food/canete.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Bar Cañete</h1>
-                <h1>Barcelona, SPA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$ | Spanish
-            </h2>
-        </div>
-        
-    
-        <div class="card bronze fusion SPA michelin">
-            <a href= "./food/review.html?id=riaskru">
-                <img class="card-img bronze" src="./assets/images/food/riaskru.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>RíasKru</h1>
-                <h1>Barcelona, SPA</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$$ | Fusion
-            </h2>
-        </div>
-        
-    
-        <div class="card bronze japanese JPN">
-            <a href= "./food/review.html?id=toufuya">
-                <img class="card-img bronze" src="./assets/images/food/toufuya.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Toufuya Ukai</h1>
-                <h1>Tokyo, JPN</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$$ | Kaiseki
-            </h2>
-        </div>
-        
-    
-        <div class="card silver japanese JPN">
-            <a href= "./food/review.html?id=gyukatsu">
-                <img class="card-img silver" src="./assets/images/food/gyukatsu.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Gyukatsu Motomura</h1>
-                <h1>Tokyo, JPN</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$ | Japanese
-            </h2>
-        </div>
-        
-    
-        <div class="card silver japanese JPN">
-            <a href= "./food/review.html?id=hinatomaru">
-                <img class="card-img silver" src="./assets/images/food/hinatomaru.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Hinatomaru </h1>
-                <h1>Tokyo, JPN</h1>
-            </div>
-            <h2 class="card-subtext">
-               $$ | Japanese
-            </h2>
-        </div>
-        
-    
-        <div class="card gold japanese JPN">
-            <a href= "./food/review.html?id=sobahouse">
-                <img class="card-img gold" src="./assets/images/food/sobahouse.jpg">
-            </a>
-            <div class="card-main-text">
-                <h1>Soba House Konjiki-Hototogisu</h1>
-                <h1>Tokyo, JPN</h1>
-            </div>
-            <h2 class="card-subtext">
-               $ | Japanese
-            </h2>
-        </div>
-        
-    
             
         
-
+            <div class="card gold mediterranean SPA michelin">
+                <a href= "./food/review.html?id=montbar">
+                    <img class="card-img gold" src="./assets/images/food/montbar.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Mont Bar</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$$ | Mediterranean
+                </h2>
+            </div>
+            
         
-    
-
+            <div class="card gold japanese USA">
+                <a href= "./food/review.html?id=shiros">
+                    <img class="card-img gold" src="./assets/images/food/shiros.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Shiro's Sushi</h1>
+                    <h1>Seattle, USA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$$ | Omakase
+                </h2>
+            </div>
+            
+        
+            <div class="card gold japanese CAN">
+                <a href= "./food/review.html?id=shizuku">
+                    <img class="card-img gold" src="./assets/images/food/shizuku.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Shizuku</h1>
+                    <h1>Scarborough, CAN</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$$ | Omakase
+                </h2>
+            </div>
+            
+        
+            <div class="card gold dessert SPA">
+                <a href= "./food/review.html?id=hofmann">
+                    <img class="card-img gold" src="./assets/images/food/hofmann.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Patisserie Hofmann</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $ | Dessert
+                </h2>
+            </div>
+            
+        
+            <div class="card gold japanese michelin JPN">
+                <a href= "./food/review.html?id=sobahouse">
+                    <img class="card-img gold" src="./assets/images/food/sobahouse.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Soba House Konjiki-Hototogisu</h1>
+                    <h1>Tokyo, JPN</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $ | Japanese
+                </h2>
+            </div>
+            
+        
+            <div class="card silver fusion SPA michelin">
+                <a href= "./food/review.html?id=alapar">
+                    <img class="card-img silver" src="./assets/images/food/alapar.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Alapar</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$ | Fusion
+                </h2>
+            </div>
+            
+        
+            <div class="card silver japanese CAN">
+                <a href= "./food/review.html?id=yugen">
+                    <img class="card-img silver" src="./assets/images/food/yugen.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Sushi Yūgen </h1>
+                    <h1>Toronto, CAN</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$ | Omakase
+                </h2>
+            </div>
+            
+        
+            <div class="card silver mediterranean SPA michelin">
+                <a href= "./food/review.html?id=seeds">
+                    <img class="card-img silver" src="./assets/images/food/seeds.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Seeds</h1>
+                    <h1>Madrid, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$ | Mediterranean
+                </h2>
+            </div>
+            
+        
+            <div class="card silver mediterranean SPA michelin">
+                <a href= "./food/review.html?id=suculent">
+                    <img class="card-img silver" src="./assets/images/food/suculent.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Suculent</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$ | Mediterranean
+                </h2>
+            </div>
+            
+        
+            <div class="card silver spanish SPA ">
+                <a href= "./food/review.html?id=canete">
+                    <img class="card-img silver" src="./assets/images/food/canete.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Bar Cañete</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$ | Spanish
+                </h2>
+            </div>
+            
+        
+            <div class="card silver japanese JPN">
+                <a href= "./food/review.html?id=gyukatsu">
+                    <img class="card-img silver" src="./assets/images/food/gyukatsu.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Gyukatsu Motomura</h1>
+                    <h1>Tokyo, JPN</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$ | Japanese
+                </h2>
+            </div>
+            
+        
+            <div class="card silver japanese JPN">
+                <a href= "./food/review.html?id=hinatomaru">
+                    <img class="card-img silver" src="./assets/images/food/hinatomaru.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Hinatomaru </h1>
+                    <h1>Tokyo, JPN</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$ | Japanese
+                </h2>
+            </div>
+            
+        
+            <div class="card silver dessert SPA">
+                <a href= "./food/review.html?id=lavina">
+                    <img class="card-img silver" src="./assets/images/food/lavina.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>La Vina</h1>
+                    <h1>San Sebastián, SPA </h1>
+                </div>
+                <h2 class="card-subtext">
+                   $ | Dessert
+                </h2>
+            </div>
+            
+        
+            <div class="card bronze fusion SPA michelin">
+                <a href= "./food/review.html?id=riaskru">
+                    <img class="card-img bronze" src="./assets/images/food/riaskru.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>RíasKru</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$$ | Fusion
+                </h2>
+            </div>
+            
+        
+            <div class="card bronze japanese JPN">
+                <a href= "./food/review.html?id=toufuya">
+                    <img class="card-img bronze" src="./assets/images/food/toufuya.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>Toufuya Ukai</h1>
+                    <h1>Tokyo, JPN</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $$$ | Kaiseki
+                </h2>
+            </div>
+            
+        
+            <div class="card bronze dessert SPA">
+                <a href= "./food/review.html?id=joncake">
+                    <img class="card-img bronze" src="./assets/images/food/joncake.jpg">
+                </a>
+                <div class="card-main-text">
+                    <h1>JonCake</h1>
+                    <h1>Barcelona, SPA</h1>
+                </div>
+                <h2 class="card-subtext">
+                   $ | Dessert
+                </h2>
+            </div>
+            
+        
         </div>
-
     
         
     </body>

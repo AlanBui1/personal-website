@@ -13,6 +13,17 @@ const filter = (filt) => {
         }
     }
 
+    var filterString = (filters.length > 0) ? "Filter: " : "Filter: None";
+    for (let i=0; i<filters.length; i++){
+        filterString += filters[i];
+        if (i != filters.length-1){
+            filterString += " "
+        }
+    }
+
+    var filterElement = document.getElementById('filter-button');
+    filterElement.innerText = filterString;
+
     var cards = document.getElementsByClassName('card');
 
     for (let i=0; i<cards.length; i++){
@@ -39,4 +50,17 @@ const match = (wantList, list) => {
         if (!(find(wantList[i], list))) return false;
     }
     return true;
+}
+
+const toggleFilter = () => {
+    var buttonElement = document.getElementById('filter-button');
+    console.log(buttonElement.classList)
+    if (find('clicked', buttonElement.classList)){
+        document.getElementById('filter-main').style.display = "none";
+        buttonElement.className = 'btn filter-text';
+    }
+    else{
+        document.getElementById('filter-main').style.display = "";
+        buttonElement.className = 'clicked btn filter-text';
+    }
 }

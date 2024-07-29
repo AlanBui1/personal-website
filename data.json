@@ -108,5 +108,35 @@
         "review": "At the food of the Tokyo Tower, you will know when you have found this restaurant by the professionalism of the exterior. There, you will be guided through the massive interior to your private dining room. Toufuya specializes in tofu, with a majority of the tasting menu dedicated toward it. When your meal is done, make sure to check out the Japanese garden with a pond for Koi carp and stepping stones.",
         "photosLink": "https://drive.google.com/drive/folders/1-7FOuJLNB094Ixf0QOgxH_VtJD-Lyv8U",
         "location": "https://maps.app.goo.gl/xCFEKmR9GY4arzXLA"
+    },
+    "gyukatsu": {
+        "name": "Gyukatsu Motomura",
+        "website": "https://www.gyukatsu-motomura.com/en",
+        "numPhotos": 1,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "Listen to the sizzle as your gyukatsu cooks on a stone plate right in front of you. Once cooked to your liking, remove it and eat with wasabi and soy sauce or your choice of the various other sauce options. There are many Gyukatsu Motomura locations and this place is worth the line-up to get inside.",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/oJtfQzbajSbF3kFY7"
+    },
+    "hinatomaru": {
+        "name": "Hinatomaru",
+        "website": "https://hinatomaru.com/",
+        "numPhotos": 1,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "If you are in Tokyo Station, be sure to check out this standing sushi restaurant. If you are in Asakusa, be sure to check out the main store which has a wider selection. At either location, your meal will be of great value, with selections that include bluefin tuna, nodoguro, and uni. In addition, the ambience is more casual than a sit-down omakase.",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/LmT9GWj1xdidKEeMA"
+    },
+    "sobahouse": {
+        "name": "Soba House Konjiki-Hototogisu",
+        "website": "https://sobahousekonjikihototogisu.com/",
+        "numPhotos": 1,
+        "michelinStars": 0,
+        "michelinLink": "https://guide.michelin.com/ca/en/tokyo-region/tokyo/restaurant/sobahouse-konjikihototogisu",
+        "review": "Make sure to go to the restaurant in the morning to pick up a ticket to dine later in the day at this formerly 1 Michelin-starred ramen restaurant. This isn’t your typical bowl of ramen, as the broth uses clams, truffles, and many other ingredients to bring out the umami while keeping the broth light but flavourful. The noodles, too, are made fresh and are worth the trip to try.",
+        "photosLink": ".",
+        "location": "https://maps.app.goo.gl/W1TQSyC5rLdHvDpcA"
     }
 }

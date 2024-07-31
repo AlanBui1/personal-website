@@ -58,6 +58,7 @@ if (searchParams.has('id')){
             photoLink.href = ((data[id]["photosLink"] === ".") ? ("./photos.html?id="+id) : data[id]["photosLink"]);
             //REVIEW
             setElementById('review', review);
+            setElementById('date', "&mdash;Alan | " + data[id]["visited"])
 
         });
 

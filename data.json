@@ -185,5 +185,49 @@
         "photosLink": ".",
         "location": "https://maps.app.goo.gl/32gc3SXxAWhpkjobA",
         "visited": "July, 2024"
+    },
+    "kazunori": {
+        "name": "KazuNori",
+        "website": "https://www.handrollbar.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "Take a seat at the dimly lit sushi bar counter and choose a set of handrolls at this handroll specialty restaurant. With crispy seaweed and slightly warm sushi rice, the handrolls are good value for lunch. Be sure to try the lobster handroll, toro handroll, and whatever the daily special is.",
+        "photosLink": "https://drive.google.com/drive/folders/1lAxfnhqg5_LObcagxmD5CaBOnqFOms-w?usp=drive_link",
+        "location": "https://maps.app.goo.gl/YG9RJpH5H6ftKghr6",
+        "visited": "August, 2024"
+    },
+    "kazumi": {
+        "name": "Kazumi Omakase",
+        "website": "https://kazuminy.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "Whether you go for lunch or dinner, the sushi chefs at Kazumi have one option to choose from: a 13-course omakase. The quality of ingredients from Japan combined with the relatively low cost makes for an excellent value meal. Some highlights of the meal include chutoro with caviar, wagyu beef with shaved truffle, and eel with foie gras. If you are looking for more, you can order specialty items from the a la carte menu.",
+        "photosLink": "https://drive.google.com/drive/folders/10N2OFTzklU_FtlKpTEHqDhCd6lmSE7Lh?usp=drive_link",
+        "location": "https://maps.app.goo.gl/vFeS7StSccU776yw5",
+        "visited": "August, 2024"
+    },
+    "pierreherme": {
+        "name": "Pierre Herm\u00e9",
+        "website": "https://www.pierreherme.com/en/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "Stop by any of the several locations across Paris and be prepared to be amazed by the array of French pastries on display. All the macarons have a soft shell and very intense flavour, but the specialty, ispahan (rose, lychee, and raspberry), takes the gold medal. The ispahan flavour extends to cakes and if you are lucky enough to find it, croissants. All the other pastries are well-balanced, presented beautifully, and a must-try in Paris.",
+        "photosLink": "https://drive.google.com/drive/folders/10FHuTZjc-WaPk1jO4XaWZ74QMz6bCSgV",
+        "location": "https://maps.app.goo.gl/m1YiEg1q3AHqSj8A9",
+        "visited": "July, 2024"
+    },
+    "yasuda": {
+        "name": "Sushi Yasuda",
+        "website": "https://www.sushiyasuda.com/",
+        "numPhotos": 0,
+        "michelinStars": 1,
+        "michelinLink": "https://guide.michelin.com/ca/en/new-york-state/new-york/restaurant/sushi-yasuda",
+        "review": "The outside may not look like much from afar, but up close, the red Michelin square with one star makes it clear you are in the right place. The interior is spacious with many dining table seats available, but the best experience is at the sushi counter, so make sure to make reservations well ahead of time. Sushi Yasuda offers a lunch special which has 10 pieces of nigiri and a roll for an excellent price. The dinner omakase includes a wider selection; however, the steep increase in price makes the lunch special more desirable and of much better value. If you know to ask, it is possible to order additional items from the a la carte menu which even has hidden items like nodoguro.",
+        "photosLink": "https://drive.google.com/drive/folders/10LeL4hASBvmAPuPvfXll0bDdxdOb95-C?usp=drive_link",
+        "location": "https://maps.app.goo.gl/CwSASo4unK3nZAUA9",
+        "visited": "August, 2024"
     }
 }

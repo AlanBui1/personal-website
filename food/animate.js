@@ -1,6 +1,5 @@
 const observer = new IntersectionObserver(cards => {
     cards.forEach(card => {
-        console.log(card);
         if (card.isIntersecting) {
             card.target.classList.add('card-animation');
             return;

@@ -229,5 +229,82 @@
         "photosLink": "https://drive.google.com/drive/folders/10LeL4hASBvmAPuPvfXll0bDdxdOb95-C?usp=drive_link",
         "location": "https://maps.app.goo.gl/CwSASo4unK3nZAUA9",
         "visited": "August, 2024"
+    },
+    "han": {
+        "name": "Han no Daidokoro",
+        "website": "https://hannodaidokoro.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "With A5 Miyazaki wagyu flown in every two days, this restaurant presents a deluxe Japanese barbecue. The different cuts of the beef are cooked to your liking and eaten with your choice of house-made soy sauce or freshly grated wasabi. The 11-course tasting menu is excellent for including different cuts of beef which do not take much to fill you. If you are still hungry after that, the udon with wagyu broth is an excellent choice.",
+        "photosLink": "https://drive.google.com/drive/folders/10QYPjptbCeJXsl-AMhSTwwRXkfVGUo8e?usp=drive_link",
+        "location": "https://maps.app.goo.gl/9JhQ4MeKuzQ2Sh199",
+        "visited": "August, 2024"
+    },
+    "shu": {
+        "name": "Sushi Bar Shu",
+        "website": "https://sushibarshu.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "Located close to the Vancouver airport, Sushi Bar Shu exclusively serves omakase lunches and dinners. Chef Shin stands behind the sushi bar that seats 8 people at a time and invites you with an open smile and friendly demeanour. The lunch omakase comes with 8 nigiri, 1 mini rice bowl, 1 hand roll, 1 maki, 1 mini udon, and 1 atsuyaki tamago. Additionally, you can add on bafun uni, caviar, and/or chawanmushi to your meal. This course only costs $88, which is great value, especially considering the fresh nigiri served which include shimaji, kinmedai, and chutoro.",
+        "photosLink": "https://drive.google.com/drive/folders/10hBKpxRZlmVsAgecFE0gAqI--HfcdmlB?usp=drive_link",
+        "location": "https://maps.app.goo.gl/WHbzBmhNaGKVGKbu8",
+        "visited": "August, 2024"
+    },
+    "chicha": {
+        "name": "ChiCha San Chen",
+        "website": "https://www.chichasanchen.com/en/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "The moment you step through the door, you are hit with the splendid aroma of freshly brewed tea. This award-winning bubble tea chain from Taiwan is precise with its measurements and ensures top quality with its tea leaves sourced from high mountains in Taiwan. The leaves are brewed to order and the toppings are fresh and full of flavour, too. That combined with the fruit options makes for a treat, especially on a hot day. Although the price is slightly higher than some other bubble tea options, the quality at CHICHA San Chen makes the price well justified.",
+        "photosLink": "https://drive.google.com/drive/folders/1-V4KI01FJNiFQoh3Q6yTv7w4sUU6VkO6?usp=drive_link",
+        "location": "https://maps.app.goo.gl/E5npmENHSufp1xfc7",
+        "visited": "August, 2024"
+    },
+    "haas": {
+        "name": "Thomas Haas",
+        "website": "https://www.thomashaas.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "There always seems to be somebody ordering at Thomas Haas, especially around lunchtime. There are a variety of well-crafted pastries to choose from as well as a shelf of smooth dark chocolate which you can never get too much of. The croissants are baked the day of and if you go at the right time, you may be able to get one still warm. The almond croissant is the star of the show with its flaky texture, buttery and not-too-sweet taste, and authentic almond flavour. If you are ever near Vancouver, Thomas Haas is definitely worth the trip.",
+        "photosLink": "https://drive.google.com/drive/folders/10j9Jjn78Ylsq44czquPZB0KA6H6ZQXq3?usp=drive_link",
+        "location": "https://maps.app.goo.gl/TdRupNkABhKHVSJS6",
+        "visited": "August, 2024"
+    },
+    "mw ": {
+        "name": "MW Restaurant",
+        "website": "https://mwrestaurant.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "When an award-winning chef who has worked at Michelin 3-starred restaurants opens their own restaurant, it should be no surprise that the food and service are great. The menu includes delightful few-bite appetizers that are great for sharing in family-style and well-portioned entrees that are delicious, too. To top it off, Chef Michelle (who worked as a pastry chef at Per Se) finishes with well-crafted desserts that leave a strong final impression",
+        "photosLink": "https://drive.google.com/drive/folders/10k3bXjWqyC3ugIFSFgQ4s0tL_tQRUK7b?usp=sharing",
+        "location": "https://maps.app.goo.gl/WF383LApHs7D7C4K6",
+        "visited": "August, 2024"
+    },
+    "hil": {
+        "name": "Sushi Hil",
+        "website": "https://www.sushihil.com/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": "https://guide.michelin.com/ca/en/british-columbia/ca-vancouver/restaurant/sushi-hil",
+        "review": "Enjoy a good value lunch at Sushi Hil with their nigiri set that includes 8 nigiri and a roll for only 60 dollars. The set includes spot prawn and nodoguro, which you may or may not be able to find depending on the season. In addition, you can order from the a la carte menu to get another nodoguro nigiri or even foie gras nigiri. The environment is cozy and welcoming for new sushi guests.",
+        "photosLink": "",
+        "location": "https://maps.app.goo.gl/s7CrcK7Ny5sgzTj28",
+        "visited": "August, 2024"
+    },
+    "motonobu ": {
+        "name": "Motonobu Udon",
+        "website": "https://motonobuudon.ca/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": "https://guide.michelin.com/ca/en/british-columbia/ca-vancouver/restaurant/motonobu-udon",
+        "review": "This udon specialty restaurant does not take reservations, but there is no need to worry since the wait is probably not going to be very long. On the menu, you can choose from a few different options and each of them showcases the same key ingredient: udon noodles. The noodles are firm but springy and served with tempura, brisket, and other toppings. The bowl is not too salty and portion sizes are good for the price.",
+        "photosLink": "https://drive.google.com/drive/folders/10kNGxcr3dEduZOYt6tKaUF2ZZvcNsuWb?usp=sharing",
+        "location": "https://maps.app.goo.gl/RvRp5mfzT2NVQB2H8",
+        "visited": "August, 2024"
     }
 }

@@ -306,5 +306,27 @@
         "photosLink": "https://drive.google.com/drive/folders/10kNGxcr3dEduZOYt6tKaUF2ZZvcNsuWb?usp=sharing",
         "location": "https://maps.app.goo.gl/RvRp5mfzT2NVQB2H8",
         "visited": "August, 2024"
+    },
+    "umi": {
+        "name": "Sushi Umi",
+        "website": "https://www.sushi-umi.ca/",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "The restaurant door opens to a dimly lit path illuminated by lights on the floor which leads to a spotless dining room where the sushi chef awaits you. For both the lunch and dinner menus, the meal starts with an appetizer, followed by 10 pieces of nigiri, and ends with a delightfully creamy tamago with a light layer of burnt sugar on top. The selection may change depending on when you go, but if you are lucky, the appetizer might be shirako! The nigiri selection consists of classic high-quality fish including shima-aji, chutoro, otoro, and Hokkaido uni. For some of the white fish, the chef employs a technique in which the rice is lightly rolled in Japanese lime zest to add an additional element to the craft. Overall, the meal is of great value and quality, especially the lunch menu.",
+        "photosLink": "https://drive.google.com/drive/folders/1hzNnK0Fzj5IMxKiy1kuHQmaVpdq2dYS0?usp=drive_link",
+        "location": "https://maps.app.goo.gl/Ynb6KZzfgs2q57Yy8",
+        "visited": "October, 2024"
+    },
+    "kaji": {
+        "name": "Sushi Kaji",
+        "website": "https://sushikaji.com/index.html",
+        "numPhotos": 0,
+        "michelinStars": 0,
+        "michelinLink": ".",
+        "review": "The selection at Sushi Kaji is pretty strong as it includes nodoguro, Japanese uni, and A5 wagyu. However, the dining experience misses the Edo-mae mark by not brushing soy sauce directly on the fish. Additionally, there are appetizers which do not contribute much to the meal. Surprisingly, the meal ended with a dessert that pleasantly reminded me of some destructed desserts from Spain.",
+        "photosLink": "https://drive.google.com/drive/folders/1YnOwRdjtaw4vrbUyOmnFqHzv9DKgzLJc?usp=drive_link",
+        "location": "https://maps.app.goo.gl/GbaYh4D6KUrBsdaX8",
+        "visited": "September, 2024"
     }
 }
